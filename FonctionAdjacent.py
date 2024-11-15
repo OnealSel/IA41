@@ -40,7 +40,7 @@ def deplacer(matrice, pos1, pos2):
 print("Matrice initiale :")
 afficher_matrice(matrice)
 
-# Déplacement : échanger (0,0) avec (1,0)
+# Déplacement : échanger (0,0) avec (1,0) (ca c'est juste un exemple mais on peut aussi ask à l'utilisateur )
 if deplacer(matrice, (0, 0), (1, 0)):
     print("Matrice après déplacement :")
     afficher_matrice(matrice)
